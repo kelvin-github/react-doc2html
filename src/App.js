@@ -1,6 +1,7 @@
 import './App.css';
 import Docx2html from './views/Docx2html'
 // import MyComponent from './views/PreViewFiles'
+// import DocViewer from './views/Mammoth'
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <Docx2html></Docx2html>
 
       {/* <MyComponent ></MyComponent> */}
+
+      {/* <DocViewer></DocViewer> */}
     </div>
   );
 }
