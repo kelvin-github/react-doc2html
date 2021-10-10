@@ -5,13 +5,15 @@ import './App.css';
 // import Demo01 from './views/Hooks';
 // import Demo02 from './views/Context';
 // import Demo03 from './views/Optimize';
-import Demo04 from './views/RenderProps';
+// import Demo04 from './views/RenderProps';
+import Demo05 from './views/ErrorBoundary/Parent'
 
 function App() {
   return (
     <div className="App">
 
-      <Demo04 />
+      <Demo05 />
+      {/* <Demo04 /> */}
       {/* <Demo03 /> */}
       {/* <Demo02 /> */}
       {/* <Demo01 /> */}
